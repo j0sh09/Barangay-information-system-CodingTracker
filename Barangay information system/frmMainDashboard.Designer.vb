@@ -23,11 +23,11 @@ Partial Class frmMainDashboard
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmMainDashboard))
-        Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("")
-        Dim ListViewItem2 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("")
-        Dim ListViewItem3 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("")
-        Dim ListViewItem4 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("")
-        Dim ListViewItem5 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("")
+        Dim ListViewItem11 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("")
+        Dim ListViewItem12 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("")
+        Dim ListViewItem13 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("")
+        Dim ListViewItem14 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("")
+        Dim ListViewItem15 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("")
         Me.btnClose = New System.Windows.Forms.Button()
         Me.panel5 = New System.Windows.Forms.Panel()
         Me.pictureBox5 = New System.Windows.Forms.PictureBox()
@@ -422,7 +422,7 @@ Partial Class frmMainDashboard
         Me.ListVDashboard.FullRowSelect = True
         Me.ListVDashboard.GridLines = True
         Me.ListVDashboard.HideSelection = False
-        Me.ListVDashboard.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1, ListViewItem2, ListViewItem3, ListViewItem4, ListViewItem5})
+        Me.ListVDashboard.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem11, ListViewItem12, ListViewItem13, ListViewItem14, ListViewItem15})
         Me.ListVDashboard.Location = New System.Drawing.Point(3, 82)
         Me.ListVDashboard.Name = "ListVDashboard"
         Me.ListVDashboard.Size = New System.Drawing.Size(1087, 474)
@@ -688,7 +688,7 @@ Partial Class frmMainDashboard
         Me.btnManageUsers.ForeColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.btnManageUsers.Image = CType(resources.GetObject("btnManageUsers.Image"), System.Drawing.Image)
         Me.btnManageUsers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnManageUsers.Location = New System.Drawing.Point(7, 629)
+        Me.btnManageUsers.Location = New System.Drawing.Point(7, 636)
         Me.btnManageUsers.Name = "btnManageUsers"
         Me.btnManageUsers.Size = New System.Drawing.Size(204, 46)
         Me.btnManageUsers.TabIndex = 130
