@@ -7,7 +7,7 @@ Public Class Login
 
     Private Sub btnSignin_Click(sender As Object, e As EventArgs) Handles btnSignin.Click
         If txtUsername.Text = "" Or TxtPassword.Text = "" Then
-            MsgBox("Please enter your Username and Passwor", MsgBoxStyle.Exclamation)
+            MsgBox("Please enter your Username and Password", MsgBoxStyle.Exclamation)
         Else
             Call Login()
         End If
