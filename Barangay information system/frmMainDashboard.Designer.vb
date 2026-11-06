@@ -688,7 +688,7 @@ Partial Class frmMainDashboard
         Me.btnManageUsers.ForeColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.btnManageUsers.Image = CType(resources.GetObject("btnManageUsers.Image"), System.Drawing.Image)
         Me.btnManageUsers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnManageUsers.Location = New System.Drawing.Point(7, 531)
+        Me.btnManageUsers.Location = New System.Drawing.Point(7, 629)
         Me.btnManageUsers.Name = "btnManageUsers"
         Me.btnManageUsers.Size = New System.Drawing.Size(204, 46)
         Me.btnManageUsers.TabIndex = 130
