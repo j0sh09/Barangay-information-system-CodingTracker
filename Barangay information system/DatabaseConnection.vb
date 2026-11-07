@@ -8,7 +8,7 @@ Module DatabaseConnection
 
     Public Sub Connection()
         cn.Close()
-        cn.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Josh\Documents\3rd year college plmun\visual studio\Barangay information system\Barangay information system\bin\Debug\BarangayInfo1.accdb"
+        cn.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\leviv\Documents\Visual Studio 2022\Barangay information system\Barangay information system\bin\Debug\BarangayInfo1.accdb"
         MsgBox("Database Connected", MsgBoxStyle.Information)
         cn.Open()
     End Sub

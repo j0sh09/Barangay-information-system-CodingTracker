@@ -62,7 +62,7 @@ Public Class Login
 
     End Sub
 
-    Private Sub pictureBox3_Click(sender As Object, e As EventArgs) Handles pictureBox3.Click
+    Private Sub pictureBox3_Click(sender As Object, e As EventArgs)
 
     End Sub
 End Class
