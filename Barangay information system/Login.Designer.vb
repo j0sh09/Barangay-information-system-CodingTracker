@@ -51,7 +51,7 @@ Partial Class Login
         Me.pictureBox3.BackColor = System.Drawing.Color.Transparent
         Me.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.pictureBox3.Image = CType(resources.GetObject("pictureBox3.Image"), System.Drawing.Image)
-        Me.pictureBox3.Location = New System.Drawing.Point(42, 12)
+        Me.pictureBox3.Location = New System.Drawing.Point(289, 85)
         Me.pictureBox3.Name = "pictureBox3"
         Me.pictureBox3.Size = New System.Drawing.Size(162, 148)
         Me.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -227,6 +227,7 @@ Partial Class Login
         Me.Panel1.Controls.Add(Me.pictureBox1)
         Me.Panel1.Controls.Add(Me.pictureBox5)
         Me.Panel1.Controls.Add(Me.pictureBox4)
+        Me.Panel1.Controls.Add(Me.pictureBox3)
         Me.Panel1.Controls.Add(Me.lblRole)
         Me.Panel1.Controls.Add(Me.label2)
         Me.Panel1.Controls.Add(Me.btnSignin)
@@ -264,7 +265,6 @@ Partial Class Login
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnClose)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.pictureBox3)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Login"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
