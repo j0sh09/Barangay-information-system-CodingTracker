@@ -23,11 +23,11 @@ Partial Class frmMainDashboard
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmMainDashboard))
-        Dim ListViewItem11 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("")
-        Dim ListViewItem12 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("")
-        Dim ListViewItem13 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("")
-        Dim ListViewItem14 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("")
-        Dim ListViewItem15 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("")
+        Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("")
+        Dim ListViewItem2 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("")
+        Dim ListViewItem3 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("")
+        Dim ListViewItem4 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("")
+        Dim ListViewItem5 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("")
         Me.btnClose = New System.Windows.Forms.Button()
         Me.panel5 = New System.Windows.Forms.Panel()
         Me.pictureBox5 = New System.Windows.Forms.PictureBox()
@@ -125,7 +125,6 @@ Partial Class frmMainDashboard
         '
         Me.panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(233, Byte), Integer))
         Me.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.panel5.Controls.Add(Me.pictureBox5)
         Me.panel5.Controls.Add(Me.lblViewLostItems)
         Me.panel5.Controls.Add(Me.lblTotalLostItems)
         Me.panel5.Controls.Add(Me.label6)
@@ -138,7 +137,7 @@ Partial Class frmMainDashboard
         '
         Me.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.pictureBox5.Image = CType(resources.GetObject("pictureBox5.Image"), System.Drawing.Image)
-        Me.pictureBox5.Location = New System.Drawing.Point(41, 61)
+        Me.pictureBox5.Location = New System.Drawing.Point(234, 12)
         Me.pictureBox5.Name = "pictureBox5"
         Me.pictureBox5.Size = New System.Drawing.Size(64, 64)
         Me.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -422,7 +421,7 @@ Partial Class frmMainDashboard
         Me.ListVDashboard.FullRowSelect = True
         Me.ListVDashboard.GridLines = True
         Me.ListVDashboard.HideSelection = False
-        Me.ListVDashboard.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem11, ListViewItem12, ListViewItem13, ListViewItem14, ListViewItem15})
+        Me.ListVDashboard.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1, ListViewItem2, ListViewItem3, ListViewItem4, ListViewItem5})
         Me.ListVDashboard.Location = New System.Drawing.Point(3, 82)
         Me.ListVDashboard.Name = "ListVDashboard"
         Me.ListVDashboard.Size = New System.Drawing.Size(1087, 474)
@@ -462,6 +461,7 @@ Partial Class frmMainDashboard
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(61, Byte), Integer), CType(CType(61, Byte), Integer))
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel1.Controls.Add(Me.pictureBox5)
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Location = New System.Drawing.Point(-4, 0)
         Me.Panel1.Name = "Panel1"
@@ -707,7 +707,7 @@ Partial Class frmMainDashboard
         Me.BtnManageResidents.ForeColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.BtnManageResidents.Image = CType(resources.GetObject("BtnManageResidents.Image"), System.Drawing.Image)
         Me.BtnManageResidents.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.BtnManageResidents.Location = New System.Drawing.Point(7, 470)
+        Me.BtnManageResidents.Location = New System.Drawing.Point(4, 479)
         Me.BtnManageResidents.Name = "BtnManageResidents"
         Me.BtnManageResidents.Size = New System.Drawing.Size(204, 46)
         Me.BtnManageResidents.TabIndex = 131
