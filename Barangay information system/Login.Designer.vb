@@ -74,7 +74,7 @@ Partial Class Login
         '
         Me.pictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.pictureBox1.Image = CType(resources.GetObject("pictureBox1.Image"), System.Drawing.Image)
-        Me.pictureBox1.Location = New System.Drawing.Point(24, 33)
+        Me.pictureBox1.Location = New System.Drawing.Point(36, 22)
         Me.pictureBox1.Name = "pictureBox1"
         Me.pictureBox1.Size = New System.Drawing.Size(32, 32)
         Me.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -109,7 +109,7 @@ Partial Class Login
         Me.lblRole.BackColor = System.Drawing.Color.Transparent
         Me.lblRole.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblRole.ForeColor = System.Drawing.Color.White
-        Me.lblRole.Location = New System.Drawing.Point(142, 40)
+        Me.lblRole.Location = New System.Drawing.Point(148, 33)
         Me.lblRole.Name = "lblRole"
         Me.lblRole.Size = New System.Drawing.Size(19, 25)
         Me.lblRole.TabIndex = 10
@@ -121,7 +121,7 @@ Partial Class Login
         Me.label2.BackColor = System.Drawing.Color.Transparent
         Me.label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.label2.ForeColor = System.Drawing.Color.White
-        Me.label2.Location = New System.Drawing.Point(62, 40)
+        Me.label2.Location = New System.Drawing.Point(74, 33)
         Me.label2.Name = "label2"
         Me.label2.Size = New System.Drawing.Size(69, 25)
         Me.label2.TabIndex = 9
@@ -150,7 +150,7 @@ Partial Class Login
         Me.btnClose.Font = New System.Drawing.Font("Bahnschrift", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnClose.ForeColor = System.Drawing.Color.Transparent
         Me.btnClose.Image = CType(resources.GetObject("btnClose.Image"), System.Drawing.Image)
-        Me.btnClose.Location = New System.Drawing.Point(750, -1)
+        Me.btnClose.Location = New System.Drawing.Point(715, -5)
         Me.btnClose.Name = "btnClose"
         Me.btnClose.Size = New System.Drawing.Size(44, 49)
         Me.btnClose.TabIndex = 39
@@ -165,9 +165,9 @@ Partial Class Login
         Me.btnSignin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnSignin.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSignin.ForeColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.btnSignin.Location = New System.Drawing.Point(20, 233)
+        Me.btnSignin.Location = New System.Drawing.Point(275, 239)
         Me.btnSignin.Name = "btnSignin"
-        Me.btnSignin.Size = New System.Drawing.Size(646, 41)
+        Me.btnSignin.Size = New System.Drawing.Size(176, 41)
         Me.btnSignin.TabIndex = 3
         Me.btnSignin.Text = "Log in"
         Me.btnSignin.UseVisualStyleBackColor = False
@@ -190,7 +190,7 @@ Partial Class Login
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(10, 92)
+        Me.Label3.Location = New System.Drawing.Point(15, 92)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(146, 29)
         Me.Label3.TabIndex = 4
@@ -213,7 +213,7 @@ Partial Class Login
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(14, 159)
+        Me.Label4.Location = New System.Drawing.Point(19, 159)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(142, 29)
         Me.Label4.TabIndex = 5
@@ -236,7 +236,7 @@ Partial Class Login
         Me.Panel1.Controls.Add(Me.txtUsername)
         Me.Panel1.Location = New System.Drawing.Point(42, 166)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(707, 294)
+        Me.Panel1.Size = New System.Drawing.Size(707, 319)
         Me.Panel1.TabIndex = 36
         '
         'Label5
@@ -259,7 +259,7 @@ Partial Class Login
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(794, 480)
+        Me.ClientSize = New System.Drawing.Size(794, 497)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnClose)
