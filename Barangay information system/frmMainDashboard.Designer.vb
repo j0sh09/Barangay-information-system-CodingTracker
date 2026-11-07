@@ -30,10 +30,10 @@ Partial Class frmMainDashboard
         Dim ListViewItem5 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("")
         Me.btnClose = New System.Windows.Forms.Button()
         Me.panel5 = New System.Windows.Forms.Panel()
-        Me.pictureBox5 = New System.Windows.Forms.PictureBox()
         Me.lblViewLostItems = New System.Windows.Forms.Label()
         Me.lblTotalLostItems = New System.Windows.Forms.Label()
         Me.label6 = New System.Windows.Forms.Label()
+        Me.pictureBox5 = New System.Windows.Forms.PictureBox()
         Me.TabControl = New System.Windows.Forms.TabControl()
         Me.TabPDashboard = New System.Windows.Forms.TabPage()
         Me.Panel4 = New System.Windows.Forms.Panel()
@@ -125,6 +125,7 @@ Partial Class frmMainDashboard
         '
         Me.panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(233, Byte), Integer))
         Me.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.panel5.Controls.Add(Me.pictureBox5)
         Me.panel5.Controls.Add(Me.lblViewLostItems)
         Me.panel5.Controls.Add(Me.lblTotalLostItems)
         Me.panel5.Controls.Add(Me.label6)
@@ -132,17 +133,6 @@ Partial Class frmMainDashboard
         Me.panel5.Name = "panel5"
         Me.panel5.Size = New System.Drawing.Size(360, 179)
         Me.panel5.TabIndex = 33
-        '
-        'pictureBox5
-        '
-        Me.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.pictureBox5.Image = CType(resources.GetObject("pictureBox5.Image"), System.Drawing.Image)
-        Me.pictureBox5.Location = New System.Drawing.Point(234, 12)
-        Me.pictureBox5.Name = "pictureBox5"
-        Me.pictureBox5.Size = New System.Drawing.Size(64, 64)
-        Me.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.pictureBox5.TabIndex = 28
-        Me.pictureBox5.TabStop = False
         '
         'lblViewLostItems
         '
@@ -180,6 +170,17 @@ Partial Class frmMainDashboard
         Me.label6.Size = New System.Drawing.Size(90, 20)
         Me.label6.TabIndex = 24
         Me.label6.Text = "Residents"
+        '
+        'pictureBox5
+        '
+        Me.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.pictureBox5.Image = CType(resources.GetObject("pictureBox5.Image"), System.Drawing.Image)
+        Me.pictureBox5.Location = New System.Drawing.Point(41, 61)
+        Me.pictureBox5.Name = "pictureBox5"
+        Me.pictureBox5.Size = New System.Drawing.Size(64, 64)
+        Me.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.pictureBox5.TabIndex = 28
+        Me.pictureBox5.TabStop = False
         '
         'TabControl
         '
@@ -461,7 +462,6 @@ Partial Class frmMainDashboard
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(61, Byte), Integer), CType(CType(61, Byte), Integer))
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel1.Controls.Add(Me.pictureBox5)
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Location = New System.Drawing.Point(-4, 0)
         Me.Panel1.Name = "Panel1"
