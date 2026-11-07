@@ -51,10 +51,10 @@ Partial Class Login
         Me.pictureBox3.BackColor = System.Drawing.Color.Transparent
         Me.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.pictureBox3.Image = CType(resources.GetObject("pictureBox3.Image"), System.Drawing.Image)
-        Me.pictureBox3.Location = New System.Drawing.Point(56, 15)
+        Me.pictureBox3.Location = New System.Drawing.Point(62, -2)
         Me.pictureBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.pictureBox3.Name = "pictureBox3"
-        Me.pictureBox3.Size = New System.Drawing.Size(215, 198)
+        Me.pictureBox3.Size = New System.Drawing.Size(141, 147)
         Me.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pictureBox3.TabIndex = 37
         Me.pictureBox3.TabStop = False
