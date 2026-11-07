@@ -36,4 +36,15 @@ Public Class frmMainDashboard
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
 
     End Sub
+
+    Private Sub btnRefresh_Click(sender As Object, e As EventArgs) 
+
+    End Sub
+
+
+
+
+
+
+
 End Class
