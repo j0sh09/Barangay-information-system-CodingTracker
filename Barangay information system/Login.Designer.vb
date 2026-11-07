@@ -23,7 +23,6 @@ Partial Class Login
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Login))
-        Me.pictureBox3 = New System.Windows.Forms.PictureBox()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.pictureBox1 = New System.Windows.Forms.PictureBox()
         Me.pictureBox5 = New System.Windows.Forms.PictureBox()
@@ -39,24 +38,11 @@ Partial Class Login
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label5 = New System.Windows.Forms.Label()
-        CType(Me.pictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'pictureBox3
-        '
-        Me.pictureBox3.BackColor = System.Drawing.Color.Transparent
-        Me.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.pictureBox3.Image = CType(resources.GetObject("pictureBox3.Image"), System.Drawing.Image)
-        Me.pictureBox3.Location = New System.Drawing.Point(29, 11)
-        Me.pictureBox3.Name = "pictureBox3"
-        Me.pictureBox3.Size = New System.Drawing.Size(162, 148)
-        Me.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.pictureBox3.TabIndex = 37
-        Me.pictureBox3.TabStop = False
         '
         'CheckBox1
         '
@@ -131,11 +117,11 @@ Partial Class Login
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Futura Cyrillic Book", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(241, 61)
+        Me.Label1.Location = New System.Drawing.Point(224, 53)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(321, 42)
+        Me.Label1.Size = New System.Drawing.Size(345, 61)
         Me.Label1.TabIndex = 35
         Me.Label1.Text = "Putatan Resident"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -243,11 +229,11 @@ Partial Class Login
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Futura Cyrillic Book", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(253, 115)
+        Me.Label5.Location = New System.Drawing.Point(265, 114)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(298, 31)
+        Me.Label5.Size = New System.Drawing.Size(263, 35)
         Me.Label5.TabIndex = 40
         Me.Label5.Text = "Records Management"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -264,12 +250,10 @@ Partial Class Login
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnClose)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.pictureBox3)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Login"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
-        CType(Me.pictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
@@ -279,8 +263,6 @@ Partial Class Login
         Me.PerformLayout()
 
     End Sub
-
-    Private WithEvents pictureBox3 As PictureBox
     Private WithEvents CheckBox1 As CheckBox
     Friend WithEvents pictureBox1 As PictureBox
     Friend WithEvents pictureBox5 As PictureBox
