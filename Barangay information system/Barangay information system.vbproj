@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B82ACFE7-8A05-4DA2-9D86-F9BFE28428EA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Barangay_information_system.Login</StartupObject>
+    <StartupObject>Barangay_information_system.frmMainDashboard</StartupObject>
     <RootNamespace>Barangay_information_system</RootNamespace>
     <AssemblyName>Barangay information system</AssemblyName>
     <FileAlignment>512</FileAlignment>

@@ -261,6 +261,16 @@
         AABJRU5ErkJggg==
 </value>
   </data>
+  <data name="Button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAC3SURBVEhLzZPB
+        CQNBDAOvJcst5dJCvnleY3mkm0sFCYYNWo5skPZ1BsMKa9Bj7QXAFcALwPtP13xdWllMPSLimZnbqGsO
+        YO8CdKal3b/wr6p5+TqtM5aZWmcsM7XOWGZqnWm//YiI26hrfvhkK2AtuEGj3jPz0sF6wEydK8C6SsJW
+        gH6VhK0A3Uytb95kgL55MwFWnTLA2rzJAH3zJgN0xjJT64xlptYZy0ytM9ZVEtYZ6yoZIDMfy3eBCHZZ
+        s3QAAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="btnCLaimItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -301,7 +311,7 @@
         s3QAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="BtnIncidents.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnResidents.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAC3SURBVEhLzZPB
@@ -311,7 +321,7 @@
         s3QAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btnResidents.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAC3SURBVEhLzZPB
