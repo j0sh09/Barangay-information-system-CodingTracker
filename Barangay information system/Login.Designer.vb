@@ -119,7 +119,7 @@ Partial Class Login
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.LightCyan
-        Me.Label1.Location = New System.Drawing.Point(217, 31)
+        Me.Label1.Location = New System.Drawing.Point(197, 38)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(409, 55)
         Me.Label1.TabIndex = 35
@@ -164,7 +164,7 @@ Partial Class Login
         Me.TxtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TxtPassword.Font = New System.Drawing.Font("Bahnschrift", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtPassword.ForeColor = System.Drawing.Color.Black
-        Me.TxtPassword.Location = New System.Drawing.Point(162, 155)
+        Me.TxtPassword.Location = New System.Drawing.Point(177, 155)
         Me.TxtPassword.Name = "TxtPassword"
         Me.TxtPassword.Size = New System.Drawing.Size(453, 33)
         Me.TxtPassword.TabIndex = 2
@@ -188,7 +188,7 @@ Partial Class Login
         Me.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtUsername.Font = New System.Drawing.Font("Bahnschrift", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtUsername.ForeColor = System.Drawing.Color.Black
-        Me.txtUsername.Location = New System.Drawing.Point(162, 88)
+        Me.txtUsername.Location = New System.Drawing.Point(177, 88)
         Me.txtUsername.Name = "txtUsername"
         Me.txtUsername.Size = New System.Drawing.Size(453, 33)
         Me.txtUsername.TabIndex = 1
@@ -231,7 +231,7 @@ Partial Class Login
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.LightCyan
-        Me.Label5.Location = New System.Drawing.Point(267, 95)
+        Me.Label5.Location = New System.Drawing.Point(247, 102)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(298, 31)
         Me.Label5.TabIndex = 40
