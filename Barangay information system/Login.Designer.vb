@@ -199,7 +199,7 @@ Partial Class Login
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Futura Cyrillic Book", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(30, 155)
+        Me.Label4.Location = New System.Drawing.Point(33, 155)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(123, 31)
         Me.Label4.TabIndex = 5
