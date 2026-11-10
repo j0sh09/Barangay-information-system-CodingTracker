@@ -1590,9 +1590,7 @@ Partial Class frmMainDashboard
         Me.ListVDashboardHH.Font = New System.Drawing.Font("Bahnschrift", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ListVDashboardHH.FullRowSelect = True
         Me.ListVDashboardHH.GridLines = True
-        Me.ListVDashboardHH.HideSelection = False
-        Me.ListVDashboardHH.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem36, ListViewItem37, ListViewItem38, ListViewItem39, ListViewItem40})
-        Me.ListVDashboardHH.Location = New System.Drawing.Point(23, 170)
+        Me.ListVDashboardHH.HideSelection = False       Me.ListVDashboardHH.Location = New System.Drawing.Point(23, 170)
         Me.ListVDashboardHH.Name = "ListVDashboardHH"
         Me.ListVDashboardHH.Size = New System.Drawing.Size(1104, 594)
         Me.ListVDashboardHH.TabIndex = 139
