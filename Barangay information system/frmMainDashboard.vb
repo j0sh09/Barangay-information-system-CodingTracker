@@ -168,4 +168,8 @@ Public Class frmMainDashboard
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         TabControl.SelectedTab = TabManageHouseholds
     End Sub
+
+    Private Sub Panel13_Paint(sender As Object, e As PaintEventArgs) Handles Panel13.Paint
+
+    End Sub
 End Class
