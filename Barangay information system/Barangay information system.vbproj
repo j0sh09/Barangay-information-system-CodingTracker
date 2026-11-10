@@ -79,9 +79,7 @@
     <Compile Include="frmMainDashboard.Designer.vb">
       <DependentUpon>frmMainDashboard.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmMainDashboard.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="frmMainDashboard.vb" />
     <Compile Include="lala.Designer.vb">
       <DependentUpon>lala.vb</DependentUpon>
     </Compile>
