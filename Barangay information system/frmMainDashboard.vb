@@ -10,6 +10,7 @@ Public Class frmMainDashboard
         LoadResidents()
         LoadResidents2()
         cboCategory.Text = ""
+        LoadUsers()
     End Sub
     Public Sub GetResidents()
         sql = "Select Count (StudentID)  from tblStudents "
@@ -20,7 +21,24 @@ Public Class frmMainDashboard
         End If
     End Sub
 
+    Public Sub LoadUsers()
+        sql = "Select * from UsersTB"
+        cmd = New OleDbCommand(sql, cn)
+        dr = cmd.ExecuteReader
+        Dim x As ListViewItem
+        ListView2.Items.Clear()
+        Do While dr.Read = True
+            x = New ListViewItem(dr(0).ToString)
+            x.SubItems.Add(dr(1).ToString)
+            x.SubItems.Add(dr(2).ToString)
+            x.SubItems.Add(dr(3).ToString)
+            x.SubItems.Add(dr(4).ToString)
+            x.SubItems.Add(dr(5).ToString)
 
+            ListView2.Items.Add(x)
+        Loop
+
+    End Sub
     Private Sub getCategories()
         Dim sql As String = "SELECT DISTINCT [ResidentTag] FROM ResidentInfo"
         Dim cmd As New OleDbCommand(sql, cn)
@@ -147,4 +165,7 @@ Public Class frmMainDashboard
         TabControl.SelectedTab = TabPResidents
     End Sub
 
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        TabControl.SelectedTab = TabManageHouseholds
+    End Sub
 End Class
