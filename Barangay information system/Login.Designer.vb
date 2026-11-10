@@ -47,11 +47,11 @@ Partial Class Login
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox1.Font = New System.Drawing.Font("Futura Cyrillic Book", 9.749998!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox1.ForeColor = System.Drawing.Color.White
-        Me.CheckBox1.Location = New System.Drawing.Point(489, 198)
+        Me.CheckBox1.Location = New System.Drawing.Point(504, 194)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(126, 20)
+        Me.CheckBox1.Size = New System.Drawing.Size(111, 21)
         Me.CheckBox1.TabIndex = 14
         Me.CheckBox1.Text = "See Password"
         Me.CheckBox1.UseVisualStyleBackColor = True
@@ -71,7 +71,7 @@ Partial Class Login
         '
         Me.pictureBox5.BackColor = System.Drawing.Color.Transparent
         Me.pictureBox5.Image = CType(resources.GetObject("pictureBox5.Image"), System.Drawing.Image)
-        Me.pictureBox5.Location = New System.Drawing.Point(648, 156)
+        Me.pictureBox5.Location = New System.Drawing.Point(636, 156)
         Me.pictureBox5.Name = "pictureBox5"
         Me.pictureBox5.Size = New System.Drawing.Size(32, 32)
         Me.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -82,7 +82,7 @@ Partial Class Login
         '
         Me.pictureBox4.BackColor = System.Drawing.Color.Transparent
         Me.pictureBox4.Image = CType(resources.GetObject("pictureBox4.Image"), System.Drawing.Image)
-        Me.pictureBox4.Location = New System.Drawing.Point(648, 88)
+        Me.pictureBox4.Location = New System.Drawing.Point(636, 87)
         Me.pictureBox4.Name = "pictureBox4"
         Me.pictureBox4.Size = New System.Drawing.Size(32, 32)
         Me.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -93,11 +93,11 @@ Partial Class Login
         '
         Me.lblRole.AutoSize = True
         Me.lblRole.BackColor = System.Drawing.Color.Transparent
-        Me.lblRole.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblRole.Font = New System.Drawing.Font("Futura Cyrillic Book", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblRole.ForeColor = System.Drawing.Color.White
         Me.lblRole.Location = New System.Drawing.Point(148, 33)
         Me.lblRole.Name = "lblRole"
-        Me.lblRole.Size = New System.Drawing.Size(19, 25)
+        Me.lblRole.Size = New System.Drawing.Size(19, 27)
         Me.lblRole.TabIndex = 10
         Me.lblRole.Text = "-"
         '
@@ -105,11 +105,11 @@ Partial Class Login
         '
         Me.label2.AutoSize = True
         Me.label2.BackColor = System.Drawing.Color.Transparent
-        Me.label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.label2.Font = New System.Drawing.Font("Futura Cyrillic Book", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.label2.ForeColor = System.Drawing.Color.White
-        Me.label2.Location = New System.Drawing.Point(74, 33)
+        Me.label2.Location = New System.Drawing.Point(83, 33)
         Me.label2.Name = "label2"
-        Me.label2.Size = New System.Drawing.Size(69, 25)
+        Me.label2.Size = New System.Drawing.Size(59, 27)
         Me.label2.TabIndex = 9
         Me.label2.Text = "User :"
         '
@@ -149,7 +149,7 @@ Partial Class Login
         Me.btnSignin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(37, Byte), Integer))
         Me.btnSignin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(23, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(28, Byte), Integer))
         Me.btnSignin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnSignin.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSignin.Font = New System.Drawing.Font("Futura Cyrillic Book", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSignin.ForeColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.btnSignin.Location = New System.Drawing.Point(20, 231)
         Me.btnSignin.Name = "btnSignin"
@@ -174,11 +174,11 @@ Partial Class Login
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Futura Cyrillic Book", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(15, 92)
+        Me.Label3.Location = New System.Drawing.Point(26, 88)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(146, 29)
+        Me.Label3.Size = New System.Drawing.Size(130, 31)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Username :"
         '
@@ -197,11 +197,11 @@ Partial Class Login
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Futura Cyrillic Book", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(19, 159)
+        Me.Label4.Location = New System.Drawing.Point(30, 155)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(142, 29)
+        Me.Label4.Size = New System.Drawing.Size(123, 31)
         Me.Label4.TabIndex = 5
         Me.Label4.Text = "Password :"
         '
@@ -243,7 +243,6 @@ Partial Class Login
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(794, 497)
         Me.Controls.Add(Me.Label5)
