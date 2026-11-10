@@ -251,7 +251,7 @@ Partial Class frmMainDashboard
         Me.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(130, Byte), Integer))
         Me.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(78, Byte), Integer), CType(CType(68, Byte), Integer), CType(CType(150, Byte), Integer))
         Me.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnClose.Font = New System.Drawing.Font("Futura Cyrillic Book", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnClose.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnClose.ForeColor = System.Drawing.Color.FromArgb(CType(CType(254, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(248, Byte), Integer))
         Me.btnClose.Image = CType(resources.GetObject("btnClose.Image"), System.Drawing.Image)
         Me.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -1413,7 +1413,7 @@ Partial Class frmMainDashboard
         Me.TabPManageUsers.TabIndex = 4
         Me.TabPManageUsers.Text = "TabPManageUsers"
         '
-        'lblSave
+        'Panel9
         '
         Me.lblSave.AutoSize = True
         Me.lblSave.Font = New System.Drawing.Font("Bahnschrift", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1425,7 +1425,33 @@ Partial Class frmMainDashboard
         Me.lblSave.Text = "Create New User"
         Me.lblSave.Visible = False
         '
-        'Button8
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.BackColor = System.Drawing.Color.Transparent
+        Me.Label18.Font = New System.Drawing.Font("Futura Cyrillic Book", 36.0!, System.Drawing.FontStyle.Bold)
+        Me.Label18.ForeColor = System.Drawing.Color.Black
+        Me.Label18.Location = New System.Drawing.Point(26, 9)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(313, 61)
+        Me.Label18.TabIndex = 29
+        Me.Label18.Text = "Manage Users"
+        '
+        'TabPHouseholds
+        '
+        Me.TabPHouseholds.BackColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(61, Byte), Integer), CType(CType(61, Byte), Integer))
+        Me.TabPHouseholds.Controls.Add(Me.Panel13)
+        Me.TabPHouseholds.Controls.Add(Me.PictureBox6)
+        Me.TabPHouseholds.Controls.Add(Me.Button6)
+        Me.TabPHouseholds.Controls.Add(Me.TextBox2)
+        Me.TabPHouseholds.Controls.Add(Me.Button3)
+        Me.TabPHouseholds.Controls.Add(Me.ListVDashboardHH)
+        Me.TabPHouseholds.Location = New System.Drawing.Point(4, 4)
+        Me.TabPHouseholds.Name = "TabPHouseholds"
+        Me.TabPHouseholds.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPHouseholds.Size = New System.Drawing.Size(1152, 781)
+        Me.TabPHouseholds.TabIndex = 5
+        Me.TabPHouseholds.Text = "TabPHouseholds"
         '
         Me.Button8.BackColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(98, Byte), Integer), CType(CType(136, Byte), Integer))
         Me.Button8.FlatAppearance.BorderColor = System.Drawing.Color.Black
@@ -1445,7 +1471,13 @@ Partial Class frmMainDashboard
         Me.Button8.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Button8.UseVisualStyleBackColor = False
         '
-        'Button9
+        Me.Panel13.BackColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(61, Byte), Integer), CType(CType(61, Byte), Integer))
+        Me.Panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel13.Controls.Add(Me.Label19)
+        Me.Panel13.Location = New System.Drawing.Point(-3, 0)
+        Me.Panel13.Name = "Panel13"
+        Me.Panel13.Size = New System.Drawing.Size(1170, 80)
+        Me.Panel13.TabIndex = 148
         '
         Me.Button9.BackColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(98, Byte), Integer), CType(CType(136, Byte), Integer))
         Me.Button9.FlatAppearance.BorderColor = System.Drawing.Color.Black
@@ -1465,7 +1497,15 @@ Partial Class frmMainDashboard
         Me.Button9.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Button9.UseVisualStyleBackColor = False
         '
-        'btnUpdate
+        Me.Label19.AutoSize = True
+        Me.Label19.BackColor = System.Drawing.Color.Transparent
+        Me.Label19.Font = New System.Drawing.Font("Futura Cyrillic Book", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.ForeColor = System.Drawing.Color.Black
+        Me.Label19.Location = New System.Drawing.Point(26, 9)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(265, 61)
+        Me.Label19.TabIndex = 29
+        Me.Label19.Text = "HouseHolds"
         '
         Me.btnUpdate.BackColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(98, Byte), Integer), CType(CType(136, Byte), Integer))
         Me.btnUpdate.FlatAppearance.BorderColor = System.Drawing.Color.Black
@@ -1486,9 +1526,449 @@ Partial Class frmMainDashboard
         Me.btnUpdate.UseVisualStyleBackColor = False
         Me.btnUpdate.Visible = False
         '
+        Me.PictureBox6.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
+        Me.PictureBox6.Location = New System.Drawing.Point(23, 121)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox6.TabIndex = 144
+        Me.PictureBox6.TabStop = False
+        '
+        'Button6
+        '
+        Me.Button6.BackColor = System.Drawing.Color.Transparent
+        Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(7, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Button6.FlatAppearance.BorderSize = 0
+        Me.Button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(37, Byte), Integer))
+        Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(23, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(28, Byte), Integer))
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button6.Font = New System.Drawing.Font("Bahnschrift", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(183, Byte), Integer), CType(CType(178, Byte), Integer), CType(CType(237, Byte), Integer))
+        Me.Button6.Image = CType(resources.GetObject("Button6.Image"), System.Drawing.Image)
+        Me.Button6.Location = New System.Drawing.Point(324, 122)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(36, 31)
+        Me.Button6.TabIndex = 143
+        Me.Button6.UseVisualStyleBackColor = False
+        '
+        'TextBox2
+        '
+        Me.TextBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(233, Byte), Integer))
+        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox2.Font = New System.Drawing.Font("Futura Cyrillic Book", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.ForeColor = System.Drawing.Color.Black
+        Me.TextBox2.Location = New System.Drawing.Point(59, 122)
+        Me.TextBox2.MaxLength = 255
+        Me.TextBox2.Multiline = True
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(259, 32)
+        Me.TextBox2.TabIndex = 145
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(233, Byte), Integer))
+        Me.Button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(7, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Button3.FlatAppearance.BorderSize = 0
+        Me.Button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(37, Byte), Integer))
+        Me.Button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(23, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(28, Byte), Integer))
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.Font = New System.Drawing.Font("Futura Cyrillic Book", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
+        Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
+        Me.Button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button3.Location = New System.Drawing.Point(900, 811)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(229, 46)
+        Me.Button3.TabIndex = 140
+        Me.Button3.Text = "Manage Households"
+        Me.Button3.UseVisualStyleBackColor = False
+        '
+        'ListVDashboardHH
+        '
+        Me.ListVDashboardHH.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader24, Me.ColumnHeader4, Me.ColumnHeader9, Me.ColumnHeader25})
+        Me.ListVDashboardHH.Font = New System.Drawing.Font("Bahnschrift", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ListVDashboardHH.FullRowSelect = True
+        Me.ListVDashboardHH.GridLines = True
+        Me.ListVDashboardHH.HideSelection = False
+        Me.ListVDashboardHH.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem36, ListViewItem37, ListViewItem38, ListViewItem39, ListViewItem40})
+        Me.ListVDashboardHH.Location = New System.Drawing.Point(23, 170)
+        Me.ListVDashboardHH.Name = "ListVDashboardHH"
+        Me.ListVDashboardHH.Size = New System.Drawing.Size(1104, 594)
+        Me.ListVDashboardHH.TabIndex = 139
+        Me.ListVDashboardHH.UseCompatibleStateImageBehavior = False
+        Me.ListVDashboardHH.View = System.Windows.Forms.View.Details
+        '
+        'ColumnHeader24
+        '
+        Me.ColumnHeader24.Text = "Household ID"
+        Me.ColumnHeader24.Width = 165
+        '
+        'ColumnHeader4
+        '
+        Me.ColumnHeader4.Text = "Address"
+        Me.ColumnHeader4.Width = 330
+        '
+        'ColumnHeader9
+        '
+        Me.ColumnHeader9.Text = "Head of Household  (Resident ID)"
+        Me.ColumnHeader9.Width = 375
+        '
+        'ColumnHeader25
+        '
+        Me.ColumnHeader25.Text = "No. Of Members"
+        Me.ColumnHeader25.Width = 184
+        '
+        'TabManageHouseholds
+        '
+        Me.TabManageHouseholds.BackColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(61, Byte), Integer), CType(CType(61, Byte), Integer))
+        Me.TabManageHouseholds.Controls.Add(Me.Button13)
+        Me.TabManageHouseholds.Controls.Add(Me.Label39)
+        Me.TabManageHouseholds.Controls.Add(Me.Button10)
+        Me.TabManageHouseholds.Controls.Add(Me.Button11)
+        Me.TabManageHouseholds.Controls.Add(Me.Button12)
+        Me.TabManageHouseholds.Controls.Add(Me.GroupBox3)
+        Me.TabManageHouseholds.Controls.Add(Me.Panel11)
+        Me.TabManageHouseholds.Location = New System.Drawing.Point(4, 4)
+        Me.TabManageHouseholds.Name = "TabManageHouseholds"
+        Me.TabManageHouseholds.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabManageHouseholds.Size = New System.Drawing.Size(1152, 872)
+        Me.TabManageHouseholds.TabIndex = 6
+        Me.TabManageHouseholds.Text = "TabManageHouseholds"
+        '
+        'Panel11
+        '
+        Me.Panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel11.Controls.Add(Me.Label20)
+        Me.Panel11.Location = New System.Drawing.Point(-3, 0)
+        Me.Panel11.Name = "Panel11"
+        Me.Panel11.Size = New System.Drawing.Size(1170, 80)
+        Me.Panel11.TabIndex = 145
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.BackColor = System.Drawing.Color.Transparent
+        Me.Label20.Font = New System.Drawing.Font("Futura Cyrillic Book", 36.0!, System.Drawing.FontStyle.Bold)
+        Me.Label20.ForeColor = System.Drawing.Color.Black
+        Me.Label20.Location = New System.Drawing.Point(26, 9)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(435, 61)
+        Me.Label20.TabIndex = 29
+        Me.Label20.Text = "Manage Households"
+        '
+        'btnCLaimItem
+        '
+        Me.btnCLaimItem.BackColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(233, Byte), Integer))
+        Me.btnCLaimItem.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(7, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnCLaimItem.FlatAppearance.BorderSize = 0
+        Me.btnCLaimItem.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer))
+        Me.btnCLaimItem.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer))
+        Me.btnCLaimItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnCLaimItem.Font = New System.Drawing.Font("Futura Cyrillic Book", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCLaimItem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
+        Me.btnCLaimItem.Image = CType(resources.GetObject("btnCLaimItem.Image"), System.Drawing.Image)
+        Me.btnCLaimItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnCLaimItem.Location = New System.Drawing.Point(7, 147)
+        Me.btnCLaimItem.Name = "btnCLaimItem"
+        Me.btnCLaimItem.Size = New System.Drawing.Size(212, 46)
+        Me.btnCLaimItem.TabIndex = 116
+        Me.btnCLaimItem.Text = "Dashboard" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.btnCLaimItem.UseVisualStyleBackColor = False
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Font = New System.Drawing.Font("Futura Cyrillic Book", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.White
+        Me.Label3.Location = New System.Drawing.Point(24, 17)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(188, 42)
+        Me.Label3.TabIndex = 105
+        Me.Label3.Text = "Putatan Resident Records" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Management" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
+        Me.Label4.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Label4.Location = New System.Drawing.Point(27, 59)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(176, 18)
+        Me.Label4.TabIndex = 118
+        Me.Label4.Text = "---------------------"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
+        Me.Label5.Font = New System.Drawing.Font("Futura Cyrillic Book", 9.749998!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Label5.Location = New System.Drawing.Point(4, 118)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(77, 17)
+        Me.Label5.TabIndex = 119
+        Me.Label5.Text = "Navigation"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.BackColor = System.Drawing.Color.Transparent
+        Me.Label7.Font = New System.Drawing.Font("Futura Cyrillic Book", 9.749998!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Label7.Location = New System.Drawing.Point(4, 446)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(65, 17)
+        Me.Label7.TabIndex = 123
+        Me.Label7.Text = "Add/Edit"
+        '
+        'btnManageUsers
+        '
+        Me.btnManageUsers.BackColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(233, Byte), Integer))
+        Me.btnManageUsers.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(7, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnManageUsers.FlatAppearance.BorderSize = 0
+        Me.btnManageUsers.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer))
+        Me.btnManageUsers.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer))
+        Me.btnManageUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnManageUsers.Font = New System.Drawing.Font("Futura Cyrillic Book", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnManageUsers.ForeColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
+        Me.btnManageUsers.Image = CType(resources.GetObject("btnManageUsers.Image"), System.Drawing.Image)
+        Me.btnManageUsers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnManageUsers.Location = New System.Drawing.Point(7, 534)
+        Me.btnManageUsers.Name = "btnManageUsers"
+        Me.btnManageUsers.Size = New System.Drawing.Size(212, 46)
+        Me.btnManageUsers.TabIndex = 130
+        Me.btnManageUsers.Text = "Manage Users"
+        Me.btnManageUsers.UseVisualStyleBackColor = False
+        '
+        'BtnManageResidents
+        '
+        Me.BtnManageResidents.BackColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(233, Byte), Integer))
+        Me.BtnManageResidents.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(7, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.BtnManageResidents.FlatAppearance.BorderSize = 0
+        Me.BtnManageResidents.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer))
+        Me.BtnManageResidents.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer))
+        Me.BtnManageResidents.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnManageResidents.Font = New System.Drawing.Font("Futura Cyrillic Book", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnManageResidents.ForeColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
+        Me.BtnManageResidents.Image = CType(resources.GetObject("BtnManageResidents.Image"), System.Drawing.Image)
+        Me.BtnManageResidents.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.BtnManageResidents.Location = New System.Drawing.Point(7, 477)
+        Me.BtnManageResidents.Name = "BtnManageResidents"
+        Me.BtnManageResidents.Size = New System.Drawing.Size(212, 46)
+        Me.BtnManageResidents.TabIndex = 131
+        Me.BtnManageResidents.Text = "Manage Residents"
+        Me.BtnManageResidents.UseVisualStyleBackColor = False
+        '
+        'btnUsers
+        '
+        Me.btnUsers.BackColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(233, Byte), Integer))
+        Me.btnUsers.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(7, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnUsers.FlatAppearance.BorderSize = 0
+        Me.btnUsers.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer))
+        Me.btnUsers.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer))
+        Me.btnUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnUsers.Font = New System.Drawing.Font("Futura Cyrillic Book", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnUsers.ForeColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
+        Me.btnUsers.Image = CType(resources.GetObject("btnUsers.Image"), System.Drawing.Image)
+        Me.btnUsers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnUsers.Location = New System.Drawing.Point(7, 336)
+        Me.btnUsers.Name = "btnUsers"
+        Me.btnUsers.Size = New System.Drawing.Size(212, 46)
+        Me.btnUsers.TabIndex = 132
+        Me.btnUsers.Text = "Users"
+        Me.btnUsers.UseVisualStyleBackColor = False
+        '
+        'btnHouseholds
+        '
+        Me.btnHouseholds.BackColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(233, Byte), Integer))
+        Me.btnHouseholds.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(7, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnHouseholds.FlatAppearance.BorderSize = 0
+        Me.btnHouseholds.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer))
+        Me.btnHouseholds.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer))
+        Me.btnHouseholds.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnHouseholds.Font = New System.Drawing.Font("Futura Cyrillic Book", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnHouseholds.ForeColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
+        Me.btnHouseholds.Image = CType(resources.GetObject("btnHouseholds.Image"), System.Drawing.Image)
+        Me.btnHouseholds.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnHouseholds.Location = New System.Drawing.Point(7, 272)
+        Me.btnHouseholds.Name = "btnHouseholds"
+        Me.btnHouseholds.Size = New System.Drawing.Size(212, 46)
+        Me.btnHouseholds.TabIndex = 134
+        Me.btnHouseholds.Text = "Households"
+        Me.btnHouseholds.UseVisualStyleBackColor = False
+        '
+        'Panel10
+        '
+        Me.Panel10.Controls.Add(Me.Panel12)
+        Me.Panel10.Location = New System.Drawing.Point(223, -3)
+        Me.Panel10.Name = "Panel10"
+        Me.Panel10.Size = New System.Drawing.Size(10, 881)
+        Me.Panel10.TabIndex = 135
+        '
+        'Panel12
+        '
+        Me.Panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel12.Location = New System.Drawing.Point(9, 4)
+        Me.Panel12.Name = "Panel12"
+        Me.Panel12.Size = New System.Drawing.Size(1170, 80)
+        Me.Panel12.TabIndex = 148
+        '
+        'btnResidents
+        '
+        Me.btnResidents.BackColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(233, Byte), Integer))
+        Me.btnResidents.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(7, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnResidents.FlatAppearance.BorderSize = 0
+        Me.btnResidents.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer))
+        Me.btnResidents.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer))
+        Me.btnResidents.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnResidents.Font = New System.Drawing.Font("Futura Cyrillic Book", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnResidents.ForeColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
+        Me.btnResidents.Image = CType(resources.GetObject("btnResidents.Image"), System.Drawing.Image)
+        Me.btnResidents.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnResidents.Location = New System.Drawing.Point(7, 208)
+        Me.btnResidents.Name = "btnResidents"
+        Me.btnResidents.Size = New System.Drawing.Size(212, 46)
+        Me.btnResidents.TabIndex = 136
+        Me.btnResidents.Text = "Residents"
+        Me.btnResidents.UseVisualStyleBackColor = False
+        '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(233, Byte), Integer))
+        Me.Button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(7, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Button4.FlatAppearance.BorderSize = 0
+        Me.Button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer))
+        Me.Button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer))
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button4.Font = New System.Drawing.Font("Futura Cyrillic Book", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
+        Me.Button4.Image = CType(resources.GetObject("Button4.Image"), System.Drawing.Image)
+        Me.Button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button4.Location = New System.Drawing.Point(7, 593)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(212, 46)
+        Me.Button4.TabIndex = 137
+        Me.Button4.Text = "Manage Households"
+        Me.Button4.UseVisualStyleBackColor = False
+        '
+        'Label31
+        '
+        Me.Label31.AutoSize = True
+        Me.Label31.Font = New System.Drawing.Font("Bahnschrift", 12.0!)
+        Me.Label31.Location = New System.Drawing.Point(710, 44)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(101, 19)
+        Me.Label31.TabIndex = 25
+        Me.Label31.Text = "Resident Tag"
+        '
+        'ComboBox4
+        '
+        Me.ComboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox4.Font = New System.Drawing.Font("Bahnschrift", 12.0!)
+        Me.ComboBox4.FormattingEnabled = True
+        Me.ComboBox4.Items.AddRange(New Object() {"N/A", "PWD", "4PS", "SENIOR CITIZEN", "SOLO PARENT"})
+        Me.ComboBox4.Location = New System.Drawing.Point(815, 38)
+        Me.ComboBox4.Name = "ComboBox4"
+        Me.ComboBox4.Size = New System.Drawing.Size(177, 27)
+        Me.ComboBox4.TabIndex = 24
+        '
+        'BtnNew
+        '
+        Me.BtnNew.BackColor = System.Drawing.Color.FromArgb(CType(CType(91, Byte), Integer), CType(CType(91, Byte), Integer), CType(CType(91, Byte), Integer))
+        Me.BtnNew.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.BtnNew.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnNew.Font = New System.Drawing.Font("Bahnschrift", 12.0!)
+        Me.BtnNew.ForeColor = System.Drawing.Color.White
+        Me.BtnNew.Location = New System.Drawing.Point(61, 629)
+        Me.BtnNew.Name = "BtnNew"
+        Me.BtnNew.Size = New System.Drawing.Size(89, 44)
+        Me.BtnNew.TabIndex = 29
+        Me.BtnNew.Text = "New"
+        Me.BtnNew.UseVisualStyleBackColor = False
+        '
+        'BtnCancel
+        '
+        Me.BtnCancel.BackColor = System.Drawing.Color.FromArgb(CType(CType(91, Byte), Integer), CType(CType(91, Byte), Integer), CType(CType(91, Byte), Integer))
+        Me.BtnCancel.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.BtnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnCancel.Font = New System.Drawing.Font("Bahnschrift", 12.0!)
+        Me.BtnCancel.ForeColor = System.Drawing.Color.White
+        Me.BtnCancel.Location = New System.Drawing.Point(980, 629)
+        Me.BtnCancel.Name = "BtnCancel"
+        Me.BtnCancel.Size = New System.Drawing.Size(87, 44)
+        Me.BtnCancel.TabIndex = 32
+        Me.BtnCancel.Text = "Cancel"
+        Me.BtnCancel.UseVisualStyleBackColor = False
+        '
+        'btnEdit
+        '
+        Me.btnEdit.BackColor = System.Drawing.Color.FromArgb(CType(CType(91, Byte), Integer), CType(CType(91, Byte), Integer), CType(CType(91, Byte), Integer))
+        Me.btnEdit.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.btnEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnEdit.Font = New System.Drawing.Font("Bahnschrift", 12.0!)
+        Me.btnEdit.ForeColor = System.Drawing.Color.White
+        Me.btnEdit.Location = New System.Drawing.Point(885, 629)
+        Me.btnEdit.Name = "btnEdit"
+        Me.btnEdit.Size = New System.Drawing.Size(89, 44)
+        Me.btnEdit.TabIndex = 31
+        Me.btnEdit.Text = "Edit"
+        Me.btnEdit.UseVisualStyleBackColor = False
+        '
+        'BtnSave
+        '
+        Me.BtnSave.BackColor = System.Drawing.Color.FromArgb(CType(CType(91, Byte), Integer), CType(CType(91, Byte), Integer), CType(CType(91, Byte), Integer))
+        Me.BtnSave.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.BtnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnSave.Font = New System.Drawing.Font("Bahnschrift", 12.0!)
+        Me.BtnSave.ForeColor = System.Drawing.Color.White
+        Me.BtnSave.Location = New System.Drawing.Point(156, 629)
+        Me.BtnSave.Name = "BtnSave"
+        Me.BtnSave.Size = New System.Drawing.Size(87, 44)
+        Me.BtnSave.TabIndex = 30
+        Me.BtnSave.Text = "Save"
+        Me.BtnSave.UseVisualStyleBackColor = False
+        '
+        'cboHouseholds
+        '
+        Me.cboHouseholds.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboHouseholds.Font = New System.Drawing.Font("Bahnschrift", 12.0!)
+        Me.cboHouseholds.FormattingEnabled = True
+        Me.cboHouseholds.Items.AddRange(New Object() {"Open", "Close"})
+        Me.cboHouseholds.Location = New System.Drawing.Point(869, 228)
+        Me.cboHouseholds.Name = "cboHouseholds"
+        Me.cboHouseholds.Size = New System.Drawing.Size(198, 27)
+        Me.cboHouseholds.TabIndex = 27
+        '
+        'Label32
+        '
+        Me.Label32.AutoSize = True
+        Me.Label32.Font = New System.Drawing.Font("Bahnschrift", 12.0!)
+        Me.Label32.ForeColor = System.Drawing.Color.White
+        Me.Label32.Location = New System.Drawing.Point(768, 231)
+        Me.Label32.Name = "Label32"
+        Me.Label32.Size = New System.Drawing.Size(95, 19)
+        Me.Label32.TabIndex = 26
+        Me.Label32.Text = "Households"
+        '
+        'Label34
+        '
+        Me.Label34.AutoSize = True
+        Me.Label34.BackColor = System.Drawing.Color.Transparent
+        Me.Label34.Font = New System.Drawing.Font("Bahnschrift", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label34.ForeColor = System.Drawing.Color.White
+        Me.Label34.Location = New System.Drawing.Point(794, 262)
+        Me.Label34.Name = "Label34"
+        Me.Label34.Size = New System.Drawing.Size(206, 38)
+        Me.Label34.TabIndex = 60
+        Me.Label34.Text = "Note: All fields is required. " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        '
         'GroupBox1
         '
-        Me.GroupBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(98, Byte), Integer), CType(CType(136, Byte), Integer))
+        Me.GroupBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(83, Byte), Integer), CType(CType(83, Byte), Integer), CType(CType(83, Byte), Integer))
         Me.GroupBox1.Controls.Add(Me.txtempno)
         Me.GroupBox1.Controls.Add(Me.Label35)
         Me.GroupBox1.Controls.Add(Me.cboRole)
@@ -1505,9 +1985,9 @@ Partial Class frmMainDashboard
         Me.GroupBox1.Controls.Add(Me.Label42)
         Me.GroupBox1.Font = New System.Drawing.Font("Bahnschrift", 12.0!)
         Me.GroupBox1.ForeColor = System.Drawing.Color.White
-        Me.GroupBox1.Location = New System.Drawing.Point(157, 186)
+        Me.GroupBox1.Location = New System.Drawing.Point(157, 211)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(769, 366)
+        Me.GroupBox1.Size = New System.Drawing.Size(732, 341)
         Me.GroupBox1.TabIndex = 39
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "User Information"
@@ -1652,196 +2132,90 @@ Partial Class frmMainDashboard
         Me.Label42.TabIndex = 1
         Me.Label42.Text = "Username"
         '
-        'Panel9
+        'Button8
         '
-        Me.Panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel9.Controls.Add(Me.Label18)
-        Me.Panel9.Location = New System.Drawing.Point(-3, 0)
-        Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(1170, 80)
-        Me.Panel9.TabIndex = 38
+        Me.Button8.BackColor = System.Drawing.Color.FromArgb(CType(CType(91, Byte), Integer), CType(CType(91, Byte), Integer), CType(CType(91, Byte), Integer))
+        Me.Button8.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button8.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
+        Me.Button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer))
+        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button8.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button8.ForeColor = System.Drawing.Color.White
+        Me.Button8.Image = CType(resources.GetObject("Button8.Image"), System.Drawing.Image)
+        Me.Button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button8.Location = New System.Drawing.Point(768, 568)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(121, 41)
+        Me.Button8.TabIndex = 42
+        Me.Button8.Text = "Cancel"
+        Me.Button8.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Button8.UseVisualStyleBackColor = False
         '
-        'Label18
+        'Button9
         '
-        Me.Label18.AutoSize = True
-        Me.Label18.BackColor = System.Drawing.Color.Transparent
-        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold)
-        Me.Label18.ForeColor = System.Drawing.Color.MintCream
-        Me.Label18.Location = New System.Drawing.Point(26, 9)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(350, 55)
-        Me.Label18.TabIndex = 29
-        Me.Label18.Text = "Manage Users"
+        Me.Button9.BackColor = System.Drawing.Color.FromArgb(CType(CType(91, Byte), Integer), CType(CType(91, Byte), Integer), CType(CType(91, Byte), Integer))
+        Me.Button9.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button9.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
+        Me.Button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer))
+        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button9.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button9.ForeColor = System.Drawing.Color.White
+        Me.Button9.Image = CType(resources.GetObject("Button9.Image"), System.Drawing.Image)
+        Me.Button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button9.Location = New System.Drawing.Point(157, 568)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(142, 41)
+        Me.Button9.TabIndex = 41
+        Me.Button9.Text = "New"
+        Me.Button9.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Button9.UseVisualStyleBackColor = False
         '
-        'TabPHouseholds
+        'btnUpdate
         '
-        Me.TabPHouseholds.BackColor = System.Drawing.Color.FromArgb(CType(CType(77, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(186, Byte), Integer))
-        Me.TabPHouseholds.Controls.Add(Me.Panel13)
-        Me.TabPHouseholds.Controls.Add(Me.PictureBox6)
-        Me.TabPHouseholds.Controls.Add(Me.Button6)
-        Me.TabPHouseholds.Controls.Add(Me.TextBox2)
-        Me.TabPHouseholds.Controls.Add(Me.Button3)
-        Me.TabPHouseholds.Controls.Add(Me.ListVDashboardHH)
-        Me.TabPHouseholds.Location = New System.Drawing.Point(4, 4)
-        Me.TabPHouseholds.Name = "TabPHouseholds"
-        Me.TabPHouseholds.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPHouseholds.Size = New System.Drawing.Size(1152, 872)
-        Me.TabPHouseholds.TabIndex = 5
-        Me.TabPHouseholds.Text = "TabPHouseholds"
+        Me.btnUpdate.BackColor = System.Drawing.Color.FromArgb(CType(CType(91, Byte), Integer), CType(CType(91, Byte), Integer), CType(CType(91, Byte), Integer))
+        Me.btnUpdate.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.btnUpdate.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
+        Me.btnUpdate.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.btnUpdate.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer))
+        Me.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnUpdate.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnUpdate.ForeColor = System.Drawing.Color.White
+        Me.btnUpdate.Image = CType(resources.GetObject("btnUpdate.Image"), System.Drawing.Image)
+        Me.btnUpdate.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnUpdate.Location = New System.Drawing.Point(305, 568)
+        Me.btnUpdate.Name = "btnUpdate"
+        Me.btnUpdate.Size = New System.Drawing.Size(137, 41)
+        Me.btnUpdate.TabIndex = 40
+        Me.btnUpdate.Text = "Update"
+        Me.btnUpdate.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.btnUpdate.UseVisualStyleBackColor = False
+        Me.btnUpdate.Visible = False
         '
-        'Panel13
+        'lblSave
         '
-        Me.Panel13.BackColor = System.Drawing.Color.FromArgb(CType(CType(77, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(186, Byte), Integer))
-        Me.Panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel13.Controls.Add(Me.Label19)
-        Me.Panel13.Location = New System.Drawing.Point(-3, 0)
-        Me.Panel13.Name = "Panel13"
-        Me.Panel13.Size = New System.Drawing.Size(1170, 80)
-        Me.Panel13.TabIndex = 148
+        Me.lblSave.AutoSize = True
+        Me.lblSave.Font = New System.Drawing.Font("Bahnschrift", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSave.ForeColor = System.Drawing.Color.White
+        Me.lblSave.Location = New System.Drawing.Point(425, 158)
+        Me.lblSave.Name = "lblSave"
+        Me.lblSave.Size = New System.Drawing.Size(173, 25)
+        Me.lblSave.TabIndex = 43
+        Me.lblSave.Text = "Create New User"
+        Me.lblSave.Visible = False
         '
-        'Label19
+        'Label33
         '
-        Me.Label19.AutoSize = True
-        Me.Label19.BackColor = System.Drawing.Color.Transparent
-        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.ForeColor = System.Drawing.Color.MintCream
-        Me.Label19.Location = New System.Drawing.Point(26, 9)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(297, 55)
-        Me.Label19.TabIndex = 29
-        Me.Label19.Text = "HouseHolds"
-        '
-        'PictureBox6
-        '
-        Me.PictureBox6.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
-        Me.PictureBox6.Location = New System.Drawing.Point(23, 121)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(32, 32)
-        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox6.TabIndex = 144
-        Me.PictureBox6.TabStop = False
-        '
-        'Button6
-        '
-        Me.Button6.BackColor = System.Drawing.Color.Transparent
-        Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(7, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Button6.FlatAppearance.BorderSize = 0
-        Me.Button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(37, Byte), Integer))
-        Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(23, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(28, Byte), Integer))
-        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.Font = New System.Drawing.Font("Bahnschrift", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(183, Byte), Integer), CType(CType(178, Byte), Integer), CType(CType(237, Byte), Integer))
-        Me.Button6.Image = CType(resources.GetObject("Button6.Image"), System.Drawing.Image)
-        Me.Button6.Location = New System.Drawing.Point(324, 122)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(36, 31)
-        Me.Button6.TabIndex = 143
-        Me.Button6.UseVisualStyleBackColor = False
-        '
-        'TextBox2
-        '
-        Me.TextBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(233, Byte), Integer))
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.ForeColor = System.Drawing.Color.Black
-        Me.TextBox2.Location = New System.Drawing.Point(59, 122)
-        Me.TextBox2.MaxLength = 255
-        Me.TextBox2.Multiline = True
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(259, 32)
-        Me.TextBox2.TabIndex = 145
-        '
-        'Button3
-        '
-        Me.Button3.BackColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(233, Byte), Integer))
-        Me.Button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(7, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Button3.FlatAppearance.BorderSize = 0
-        Me.Button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(37, Byte), Integer))
-        Me.Button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(23, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(28, Byte), Integer))
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.ForeColor = System.Drawing.Color.CadetBlue
-        Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
-        Me.Button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button3.Location = New System.Drawing.Point(900, 811)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(229, 46)
-        Me.Button3.TabIndex = 140
-        Me.Button3.Text = "Manage Households"
-        Me.Button3.UseVisualStyleBackColor = False
-        '
-        'ListVDashboardHH
-        '
-        Me.ListVDashboardHH.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader24, Me.ColumnHeader4, Me.ColumnHeader9, Me.ColumnHeader25})
-        Me.ListVDashboardHH.Font = New System.Drawing.Font("Bahnschrift", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ListVDashboardHH.FullRowSelect = True
-        Me.ListVDashboardHH.GridLines = True
-        Me.ListVDashboardHH.HideSelection = False
-        Me.ListVDashboardHH.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem16, ListViewItem17, ListViewItem18, ListViewItem19, ListViewItem20})
-        Me.ListVDashboardHH.Location = New System.Drawing.Point(23, 170)
-        Me.ListVDashboardHH.Name = "ListVDashboardHH"
-        Me.ListVDashboardHH.Size = New System.Drawing.Size(1104, 594)
-        Me.ListVDashboardHH.TabIndex = 139
-        Me.ListVDashboardHH.UseCompatibleStateImageBehavior = False
-        Me.ListVDashboardHH.View = System.Windows.Forms.View.Details
-        '
-        'ColumnHeader24
-        '
-        Me.ColumnHeader24.Text = "Household ID"
-        Me.ColumnHeader24.Width = 165
-        '
-        'ColumnHeader4
-        '
-        Me.ColumnHeader4.Text = "Address"
-        Me.ColumnHeader4.Width = 330
-        '
-        'ColumnHeader9
-        '
-        Me.ColumnHeader9.Text = "Head of Household  (Resident ID)"
-        Me.ColumnHeader9.Width = 375
-        '
-        'ColumnHeader25
-        '
-        Me.ColumnHeader25.Text = "No. Of Members"
-        Me.ColumnHeader25.Width = 184
-        '
-        'TabManageHouseholds
-        '
-        Me.TabManageHouseholds.BackColor = System.Drawing.Color.FromArgb(CType(CType(77, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(186, Byte), Integer))
-        Me.TabManageHouseholds.Controls.Add(Me.Button13)
-        Me.TabManageHouseholds.Controls.Add(Me.Label39)
-        Me.TabManageHouseholds.Controls.Add(Me.Button10)
-        Me.TabManageHouseholds.Controls.Add(Me.Button11)
-        Me.TabManageHouseholds.Controls.Add(Me.Button12)
-        Me.TabManageHouseholds.Controls.Add(Me.GroupBox3)
-        Me.TabManageHouseholds.Controls.Add(Me.Panel11)
-        Me.TabManageHouseholds.Location = New System.Drawing.Point(4, 4)
-        Me.TabManageHouseholds.Name = "TabManageHouseholds"
-        Me.TabManageHouseholds.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabManageHouseholds.Size = New System.Drawing.Size(1152, 872)
-        Me.TabManageHouseholds.TabIndex = 6
-        Me.TabManageHouseholds.Text = "TabManageHouseholds"
-        '
-        'Button13
-        '
-        Me.Button13.BackColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(98, Byte), Integer), CType(CType(136, Byte), Integer))
-        Me.Button13.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button13.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.Button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer))
-        Me.Button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button13.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button13.ForeColor = System.Drawing.Color.White
-        Me.Button13.Image = CType(resources.GetObject("Button13.Image"), System.Drawing.Image)
-        Me.Button13.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button13.Location = New System.Drawing.Point(448, 542)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(142, 55)
-        Me.Button13.TabIndex = 151
-        Me.Button13.Text = "Add Resident"
-        Me.Button13.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Button13.UseVisualStyleBackColor = False
+        Me.Label33.AutoSize = True
+        Me.Label33.Font = New System.Drawing.Font("Bahnschrift", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label33.ForeColor = System.Drawing.Color.White
+        Me.Label33.Location = New System.Drawing.Point(416, 158)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(210, 25)
+        Me.Label33.TabIndex = 107
+        Me.Label33.Text = "Create New Resident"
+        Me.Label33.Visible = False
         '
         'Label39
         '
@@ -1857,7 +2231,7 @@ Partial Class frmMainDashboard
         '
         'Button10
         '
-        Me.Button10.BackColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(98, Byte), Integer), CType(CType(136, Byte), Integer))
+        Me.Button10.BackColor = System.Drawing.Color.FromArgb(CType(CType(91, Byte), Integer), CType(CType(91, Byte), Integer), CType(CType(91, Byte), Integer))
         Me.Button10.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.Button10.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
         Me.Button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
@@ -1877,7 +2251,7 @@ Partial Class frmMainDashboard
         '
         'Button11
         '
-        Me.Button11.BackColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(98, Byte), Integer), CType(CType(136, Byte), Integer))
+        Me.Button11.BackColor = System.Drawing.Color.FromArgb(CType(CType(91, Byte), Integer), CType(CType(91, Byte), Integer), CType(CType(91, Byte), Integer))
         Me.Button11.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.Button11.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
         Me.Button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
@@ -1897,7 +2271,7 @@ Partial Class frmMainDashboard
         '
         'Button12
         '
-        Me.Button12.BackColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(98, Byte), Integer), CType(CType(136, Byte), Integer))
+        Me.Button12.BackColor = System.Drawing.Color.FromArgb(CType(CType(91, Byte), Integer), CType(CType(91, Byte), Integer), CType(CType(91, Byte), Integer))
         Me.Button12.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.Button12.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
         Me.Button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
@@ -1918,7 +2292,7 @@ Partial Class frmMainDashboard
         '
         'GroupBox3
         '
-        Me.GroupBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(98, Byte), Integer), CType(CType(136, Byte), Integer))
+        Me.GroupBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(83, Byte), Integer), CType(CType(83, Byte), Integer), CType(CType(83, Byte), Integer))
         Me.GroupBox3.Controls.Add(Me.cbohouseholdHIDE)
         Me.GroupBox3.Controls.Add(Me.TextBox6)
         Me.GroupBox3.Controls.Add(Me.Label43)
@@ -1935,17 +2309,6 @@ Partial Class frmMainDashboard
         Me.GroupBox3.TabIndex = 146
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Household Information"
-        '
-        'cbohouseholdHIDE
-        '
-        Me.cbohouseholdHIDE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.cbohouseholdHIDE.ForeColor = System.Drawing.Color.Black
-        Me.cbohouseholdHIDE.FormattingEnabled = True
-        Me.cbohouseholdHIDE.Items.AddRange(New Object() {"Registrar", "Administrator"})
-        Me.cbohouseholdHIDE.Location = New System.Drawing.Point(56, 219)
-        Me.cbohouseholdHIDE.Name = "cbohouseholdHIDE"
-        Me.cbohouseholdHIDE.Size = New System.Drawing.Size(245, 27)
-        Me.cbohouseholdHIDE.TabIndex = 25
         '
         'TextBox6
         '
@@ -2017,224 +2380,81 @@ Partial Class frmMainDashboard
         Me.Label49.TabIndex = 1
         Me.Label49.Text = "Address" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
-        'Panel11
+        'Button13
         '
-        Me.Panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel11.Controls.Add(Me.Label20)
-        Me.Panel11.Location = New System.Drawing.Point(-3, 0)
-        Me.Panel11.Name = "Panel11"
-        Me.Panel11.Size = New System.Drawing.Size(1170, 80)
-        Me.Panel11.TabIndex = 145
+        Me.Button13.BackColor = System.Drawing.Color.FromArgb(CType(CType(91, Byte), Integer), CType(CType(91, Byte), Integer), CType(CType(91, Byte), Integer))
+        Me.Button13.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button13.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
+        Me.Button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer))
+        Me.Button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button13.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button13.ForeColor = System.Drawing.Color.White
+        Me.Button13.Image = CType(resources.GetObject("Button13.Image"), System.Drawing.Image)
+        Me.Button13.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button13.Location = New System.Drawing.Point(448, 542)
+        Me.Button13.Name = "Button13"
+        Me.Button13.Size = New System.Drawing.Size(142, 55)
+        Me.Button13.TabIndex = 151
+        Me.Button13.Text = "Add Resident"
+        Me.Button13.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Button13.UseVisualStyleBackColor = False
         '
-        'Label20
+        'cbohouseholdHIDE
         '
-        Me.Label20.AutoSize = True
-        Me.Label20.BackColor = System.Drawing.Color.Transparent
-        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold)
-        Me.Label20.ForeColor = System.Drawing.Color.MintCream
-        Me.Label20.Location = New System.Drawing.Point(26, 9)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(484, 55)
-        Me.Label20.TabIndex = 29
-        Me.Label20.Text = "Manage Households"
+        Me.cbohouseholdHIDE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cbohouseholdHIDE.ForeColor = System.Drawing.Color.Black
+        Me.cbohouseholdHIDE.FormattingEnabled = True
+        Me.cbohouseholdHIDE.Items.AddRange(New Object() {"Registrar", "Administrator"})
+        Me.cbohouseholdHIDE.Location = New System.Drawing.Point(56, 219)
+        Me.cbohouseholdHIDE.Name = "cbohouseholdHIDE"
+        Me.cbohouseholdHIDE.Size = New System.Drawing.Size(245, 27)
+        Me.cbohouseholdHIDE.TabIndex = 25
         '
-        'btnCLaimItem
+        'Button14
         '
-        Me.btnCLaimItem.BackColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(233, Byte), Integer))
-        Me.btnCLaimItem.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(7, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.btnCLaimItem.FlatAppearance.BorderSize = 0
-        Me.btnCLaimItem.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.btnCLaimItem.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer))
-        Me.btnCLaimItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnCLaimItem.Font = New System.Drawing.Font("Futura Cyrillic Book", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCLaimItem.ForeColor = System.Drawing.Color.CadetBlue
-        Me.btnCLaimItem.Image = CType(resources.GetObject("btnCLaimItem.Image"), System.Drawing.Image)
-        Me.btnCLaimItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnCLaimItem.Location = New System.Drawing.Point(7, 147)
-        Me.btnCLaimItem.Name = "btnCLaimItem"
-        Me.btnCLaimItem.Size = New System.Drawing.Size(212, 46)
-        Me.btnCLaimItem.TabIndex = 116
-        Me.btnCLaimItem.Text = "Dashboard" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        Me.btnCLaimItem.UseVisualStyleBackColor = False
+        Me.Button14.BackColor = System.Drawing.Color.FromArgb(CType(CType(91, Byte), Integer), CType(CType(91, Byte), Integer), CType(CType(91, Byte), Integer))
+        Me.Button14.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button14.Font = New System.Drawing.Font("Bahnschrift", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button14.ForeColor = System.Drawing.Color.White
+        Me.Button14.Location = New System.Drawing.Point(948, 189)
+        Me.Button14.Name = "Button14"
+        Me.Button14.Size = New System.Drawing.Size(119, 33)
+        Me.Button14.TabIndex = 108
+        Me.Button14.Text = "+ New Household"
+        Me.Button14.UseVisualStyleBackColor = False
         '
-        'Label3
+        'ComboBox5
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Futura Cyrillic Book", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(15, 20)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(188, 42)
-        Me.Label3.TabIndex = 105
-        Me.Label3.Text = "Putatan Resident Records" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Management" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.ComboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox5.Font = New System.Drawing.Font("Bahnschrift", 12.0!)
+        Me.ComboBox5.FormattingEnabled = True
+        Me.ComboBox5.Items.AddRange(New Object() {"Head", "Spouse", "Child", "Parent", "Sibling", "Other"})
+        Me.ComboBox5.Location = New System.Drawing.Point(129, 94)
+        Me.ComboBox5.Name = "ComboBox5"
+        Me.ComboBox5.Size = New System.Drawing.Size(169, 27)
+        Me.ComboBox5.TabIndex = 61
         '
-        'Label4
+        'TextBox4
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(27, 59)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(176, 18)
-        Me.Label4.TabIndex = 118
-        Me.Label4.Text = "---------------------"
+        Me.TextBox4.Font = New System.Drawing.Font("Bahnschrift", 12.0!)
+        Me.TextBox4.Location = New System.Drawing.Point(445, 156)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(229, 27)
+        Me.TextBox4.TabIndex = 62
         '
-        'Label5
+        'ColumnHeader7
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("Futura Cyrillic Book", 9.749998!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(4, 118)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(77, 17)
-        Me.Label5.TabIndex = 119
-        Me.Label5.Text = "Navigation"
+        Me.ColumnHeader7.DisplayIndex = 2
+        Me.ColumnHeader7.Text = "Lastname"
+        Me.ColumnHeader7.Width = 229
         '
-        'Label7
+        'ColumnHeader8
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.BackColor = System.Drawing.Color.Transparent
-        Me.Label7.Font = New System.Drawing.Font("Futura Cyrillic Book", 9.749998!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Label7.Location = New System.Drawing.Point(4, 446)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(65, 17)
-        Me.Label7.TabIndex = 123
-        Me.Label7.Text = "Add/Edit"
-        '
-        'btnManageUsers
-        '
-        Me.btnManageUsers.BackColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(233, Byte), Integer))
-        Me.btnManageUsers.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(7, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.btnManageUsers.FlatAppearance.BorderSize = 0
-        Me.btnManageUsers.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.btnManageUsers.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer))
-        Me.btnManageUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnManageUsers.Font = New System.Drawing.Font("Futura Cyrillic Book", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnManageUsers.ForeColor = System.Drawing.Color.CadetBlue
-        Me.btnManageUsers.Image = CType(resources.GetObject("btnManageUsers.Image"), System.Drawing.Image)
-        Me.btnManageUsers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnManageUsers.Location = New System.Drawing.Point(7, 534)
-        Me.btnManageUsers.Name = "btnManageUsers"
-        Me.btnManageUsers.Size = New System.Drawing.Size(212, 46)
-        Me.btnManageUsers.TabIndex = 130
-        Me.btnManageUsers.Text = "Manage Users"
-        Me.btnManageUsers.UseVisualStyleBackColor = False
-        '
-        'BtnManageResidents
-        '
-        Me.BtnManageResidents.BackColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(233, Byte), Integer))
-        Me.BtnManageResidents.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(7, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.BtnManageResidents.FlatAppearance.BorderSize = 0
-        Me.BtnManageResidents.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.BtnManageResidents.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer))
-        Me.BtnManageResidents.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnManageResidents.Font = New System.Drawing.Font("Futura Cyrillic Book", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnManageResidents.ForeColor = System.Drawing.Color.CadetBlue
-        Me.BtnManageResidents.Image = CType(resources.GetObject("BtnManageResidents.Image"), System.Drawing.Image)
-        Me.BtnManageResidents.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.BtnManageResidents.Location = New System.Drawing.Point(7, 477)
-        Me.BtnManageResidents.Name = "BtnManageResidents"
-        Me.BtnManageResidents.Size = New System.Drawing.Size(212, 46)
-        Me.BtnManageResidents.TabIndex = 131
-        Me.BtnManageResidents.Text = "Manage Residents"
-        Me.BtnManageResidents.UseVisualStyleBackColor = False
-        '
-        'btnUsers
-        '
-        Me.btnUsers.BackColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(233, Byte), Integer))
-        Me.btnUsers.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(7, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.btnUsers.FlatAppearance.BorderSize = 0
-        Me.btnUsers.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.btnUsers.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer))
-        Me.btnUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnUsers.Font = New System.Drawing.Font("Futura Cyrillic Book", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnUsers.ForeColor = System.Drawing.Color.CadetBlue
-        Me.btnUsers.Image = CType(resources.GetObject("btnUsers.Image"), System.Drawing.Image)
-        Me.btnUsers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnUsers.Location = New System.Drawing.Point(7, 336)
-        Me.btnUsers.Name = "btnUsers"
-        Me.btnUsers.Size = New System.Drawing.Size(212, 46)
-        Me.btnUsers.TabIndex = 132
-        Me.btnUsers.Text = "Users"
-        Me.btnUsers.UseVisualStyleBackColor = False
-        '
-        'btnHouseholds
-        '
-        Me.btnHouseholds.BackColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(233, Byte), Integer))
-        Me.btnHouseholds.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(7, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.btnHouseholds.FlatAppearance.BorderSize = 0
-        Me.btnHouseholds.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.btnHouseholds.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer))
-        Me.btnHouseholds.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnHouseholds.Font = New System.Drawing.Font("Futura Cyrillic Book", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnHouseholds.ForeColor = System.Drawing.Color.CadetBlue
-        Me.btnHouseholds.Image = CType(resources.GetObject("btnHouseholds.Image"), System.Drawing.Image)
-        Me.btnHouseholds.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnHouseholds.Location = New System.Drawing.Point(7, 272)
-        Me.btnHouseholds.Name = "btnHouseholds"
-        Me.btnHouseholds.Size = New System.Drawing.Size(212, 46)
-        Me.btnHouseholds.TabIndex = 134
-        Me.btnHouseholds.Text = "Households"
-        Me.btnHouseholds.UseVisualStyleBackColor = False
-        '
-        'Panel10
-        '
-        Me.Panel10.Controls.Add(Me.Panel12)
-        Me.Panel10.Location = New System.Drawing.Point(223, -3)
-        Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(10, 881)
-        Me.Panel10.TabIndex = 135
-        '
-        'Panel12
-        '
-        Me.Panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel12.Location = New System.Drawing.Point(9, 4)
-        Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(1170, 80)
-        Me.Panel12.TabIndex = 148
-        '
-        'btnResidents
-        '
-        Me.btnResidents.BackColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(233, Byte), Integer))
-        Me.btnResidents.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(7, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.btnResidents.FlatAppearance.BorderSize = 0
-        Me.btnResidents.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.btnResidents.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer))
-        Me.btnResidents.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnResidents.Font = New System.Drawing.Font("Futura Cyrillic Book", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnResidents.ForeColor = System.Drawing.Color.CadetBlue
-        Me.btnResidents.Image = CType(resources.GetObject("btnResidents.Image"), System.Drawing.Image)
-        Me.btnResidents.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnResidents.Location = New System.Drawing.Point(7, 208)
-        Me.btnResidents.Name = "btnResidents"
-        Me.btnResidents.Size = New System.Drawing.Size(212, 46)
-        Me.btnResidents.TabIndex = 136
-        Me.btnResidents.Text = "Residents"
-        Me.btnResidents.UseVisualStyleBackColor = False
-        '
-        'Button4
-        '
-        Me.Button4.BackColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(233, Byte), Integer))
-        Me.Button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(7, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Button4.FlatAppearance.BorderSize = 0
-        Me.Button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.Button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer))
-        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Font = New System.Drawing.Font("Futura Cyrillic Book", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.ForeColor = System.Drawing.Color.CadetBlue
-        Me.Button4.Image = CType(resources.GetObject("Button4.Image"), System.Drawing.Image)
-        Me.Button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button4.Location = New System.Drawing.Point(9, 598)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(212, 46)
-        Me.Button4.TabIndex = 137
-        Me.Button4.Text = "Manage Households"
-        Me.Button4.UseVisualStyleBackColor = False
+        Me.ColumnHeader8.DisplayIndex = 3
+        Me.ColumnHeader8.Text = "Firstname"
+        Me.ColumnHeader8.Width = 249
         '
         'frmMainDashboard
         '
